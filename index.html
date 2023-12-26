@@ -1,1 +1,14 @@
-<h1>Is Hildegard von Bingen dead today, <date></date>?</h1>
+<h1>Is Hildegard von Bingen dead today?</h1>
+<br>
+<h1>Today's Date and Time:</h1><br>
+<h1 id="datetime"></h1>
+<br>
+<h2>She is dead. May the gods look favorably on her.</h2>
+<script>
+  // Get current date and time
+  var now = new Date();
+  var datetime = now.toLocaleString();
+
+  // Insert date and time into HTML
+  document.getElementById("datetime").innerHTML = datetime;
+</script>
